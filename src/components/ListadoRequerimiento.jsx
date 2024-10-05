@@ -21,7 +21,7 @@ export const ListadoRequerimientos = ({ requerimientos, eliminarRequerimiento })
                         <p>Resumen: {req.resumen}</p>
                         <button
                             className="bg-red-600 text-white p-2 mt-2 rounded"
-                            onClick={() => eliminarRequerimiento(index)} // Llama a la función de eliminación
+                            onClick={() => eliminarRequerimiento(index)} 
                         >
                             Eliminar
                         </button>
